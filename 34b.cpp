@@ -4,7 +4,7 @@ using namespace std;
 int main() 
 {
 int len,count=0;
-char s[20];
+string s;
 cout<<"enter string";
 getline(cin,s);
 len=s.lenght();
