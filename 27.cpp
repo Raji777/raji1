@@ -7,11 +7,11 @@ cout<<"enter c";
 cin>>c;
 if((c>='a'&&c<='z')||(c>='A'&&c<='Z'))
 {
-cout<<"it is not a numeric ";
+cout<<"no";
 }
 else
 {
-cout<<"it is numeric";
+cout<<"yes";
 }
 return 0;
 }
