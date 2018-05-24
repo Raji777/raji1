@@ -6,8 +6,8 @@ int main()
 int len,count=0;
 char s[20];
 cout<<"enter string";
-cin>>s;
-len=strlen(s);
+getline(cin,s);
+len=s.lenght();
 for(int i=0;i<=len;i++)
 {
 	if(s[i]=='.')
